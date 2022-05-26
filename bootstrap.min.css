@@ -11,6 +11,7 @@ body{
 
 .bt-resp{
   font-size: 40px;
+  padding: 10px 0px 10px 0px;
   background-color: transparent;
   border: none;
   color: #000;
@@ -23,23 +24,15 @@ body{
 }
 
 .bt-resp:hover{
-  background: #000;
-  color: #fff;
+  color: #000;
+  background: #fff;
 }
 
 .bt-resp:focus ~ .navegation{
-  height: 125px;
-  
-}
-
-.bt-resp:active{
-  background: red;
-  color: #fff;
-}
-
-.bt-resp:focus ~ .h1{
-  display: none;
-  
+  color: #000;
+  background: #fff;
+  height: 30%;
+  width: 100%;
 }
 
 
@@ -340,7 +333,7 @@ span{
   margin-top: 3840px;
   background: #d3d3d3;
   border-top: 15px groove #ff0;
-  min-width: 1795px;
+  max-width: 1795px;
   min-height: 350px;
   opacity: 0.92;
 }
@@ -497,28 +490,27 @@ address{
     flex-direction: column;
     text-align: center;
     justify-content: center;
-    align-items: unset;
+    align-items: center;
     margin: 0;
     height: 0;
     overflow: hidden;
-    transition: all 0.5s;
+    transition: all 0.10s;
   }
   
   .nav-link{
     border: none;
     box-shadow: none;
-    font-size: 17px;
-    width: 45vh;
+    font-size: 18px;
     border-radius: 0px;
-      
+    max-width: 100%;  
   }
 
   .nav-link:hover{
     cursor: pointer;
-    background-color: rgba(255, 255, 255, 0.2);
-    color: #fff;
+    background-color: #000;
+    color: white;
     opacity: 0.8;
-
+   
   }
    
   .bt-resp{
@@ -530,7 +522,7 @@ address{
   
   /* Header */
   .h1{
-    max-width: 273px;
+    max-width: 100%;
     position: absolute;
     margin-top: -20px;
     margin-left: 10px;
@@ -549,11 +541,11 @@ address{
  } 
   
  .img-fluid{
-   max-width: 268px;
+   max-width: 100%;
  }
   
   .cm1{
-   max-width: 270px;
+   max-width: 100%;
    position: relative;
    margin-left: 80px;
    margin-top: 20px;
@@ -570,13 +562,13 @@ address{
    margin-top: -210px;
    font-size: 30px;
    color: #fff;
-   max-width: 270px;
+   max-width: 100%;
   }
 
   .cards{
     display: flex;
     flex-wrap: wrap;
-    max-width: 275px;
+    max-width: 74%;
     margin-left: -110px;
     margin-top: 60px;
   }
@@ -589,7 +581,7 @@ address{
 
   .vtg{
     position: absolute;
-    margin-top: 5750px;
+    margin-top: 4850px;
     margin-left: 20px;
     
   }
@@ -598,28 +590,28 @@ address{
     font-size: 35px;
     margin-bottom: 20px;
     color: #fff;
-    max-width: 270px;
+    max-width: 100%;
   }
   
   .titvtg1{
   
     font-size: 15px;
     color: #dcdcdc;
-    max-width: 240px;
+    max-width: 100%;
   }
   
   /* Formulário e Convencimento */
 
   .vai{
     position: absolute;
-    margin-top: 7550px;
+    margin-top: 6550px;
     margin-left: -70px;
-    max-width: 270px;
+    max-width: 100%;
     flex-direction: column;
   }
 
   .form1{
-    max-width: 250px;
+    max-width: 100%;
   }
     /* Titulo do Formulário */
   #formint{
@@ -659,7 +651,7 @@ address{
 
   .ult{
     position: absolute;
-    margin-top: 8850px;
+    margin-top: 7800px;
     margin-left: -40px;
   }  
   
@@ -675,8 +667,8 @@ address{
 
     .fofinal{
       position: absolute;
-      margin-top: 9150px;
-      max-width: 375px;
+      margin-top: 8150px;
+      max-width: 100%;
       display: flex;
       flex-wrap: wrap;
     }  
@@ -760,8 +752,8 @@ address{
 
     .des-footer{
       position: relative;
-      margin-top: 330px;
-      margin-left: -220px;
+      margin-top: -140px;
+      margin-left: -10px;
     }
     
     .text-footer1{
@@ -794,6 +786,9 @@ address{
       margin-right: 10px;
     }
     
+    .pre-footer{
+      display: none;
+    }
 }
 
 @media screen and (min-width:375px) and (max-width:424px) {
@@ -822,21 +817,20 @@ address{
       margin: 0;
       height: 0;
       overflow: hidden;
-      transition: all 0.5s;
+      transition: all 0.10s;
     }
     
     .nav-link{
       border: none;
       box-shadow: none;
-      font-size: 17px;
-      width: 65vh;
+      font-size: 18px;
       border-radius: 0px;
-        
+      max-width: 100%;  
     }
   
     .nav-link:hover{
       cursor: pointer;
-      background-color: rgba(255, 255, 255, 0.2);
+      background-color: #000;
       color: #fff;
       opacity: 0.8;
   
@@ -851,7 +845,7 @@ address{
   
   /* Header */
   .h1{
-    max-width: 373px;
+    max-width: 100%;
     position: absolute;
     margin-top: -20px;
     margin-left: 10px;
@@ -870,11 +864,11 @@ address{
  } 
   
  .img-fluid{
-   max-width:368px;
+   max-width: 100%;
  }
   
   .cm1{
-   max-width: 370px;
+   max-width: 100%;
    position: relative;
    margin-left: 80px;
    margin-top: 20px;
@@ -891,13 +885,13 @@ address{
    margin-top: -190px;
    font-size: 35px;
    color: #fff;
-   max-width: 370px;
+   max-width: 100%;
   }
 
   .cards{
     display: flex;
     flex-wrap: wrap;
-    max-width: 375px;
+    max-width: 78%;
     margin-left: -110px;
     margin-top: 80px;
   }
@@ -910,7 +904,7 @@ address{
 
   .vtg{
     position: absolute;
-    margin-top: 4500px;
+    margin-top: 4725px;
     margin-left: 20px;
     
   }
@@ -919,28 +913,28 @@ address{
     font-size: 30px;
     margin-bottom: 20px;
     color: #fff;
-    max-width: 350px;
+    max-width: 100%;
   }
   
   .titvtg1{
   
     font-size: 15px;
     color: #dcdcdc;
-    max-width: 340px;
+    max-width: 100%;
   }
   
   /* Formulário e Convencimento */
 
   .vai{
     position: absolute;
-    margin-top: 5750px;
+    margin-top: 5900px;
     margin-left: -70px;
-    max-width: 370px;
+    max-width: 100%;
     flex-direction: column;
   }
 
   .form1{
-    max-width: 350px;
+    max-width: 90%;
   }
     /* Titulo do Formulário */
   #formint{
@@ -970,7 +964,7 @@ address{
    
   .conv{
     position: relative;
-    margin-top: 470px;
+    margin-top: 520px;
     left:70px;
     margin-left: 20px;
   }
@@ -979,7 +973,7 @@ address{
 
   .ult{
     position: absolute;
-    margin-top: 6750px;
+    margin-top: 6950px;
     margin-left: -40px;
   }  
   
@@ -995,8 +989,8 @@ address{
 
     .fofinal{
       position: absolute;
-      margin-top: 6940px;
-      max-width: 375px;
+      margin-top: 7180px;
+      max-width: 100%;
       display: flex;
       flex-wrap: wrap;
     }  
@@ -1010,8 +1004,8 @@ address{
     
     .pagamento{
       position: relative;
-      margin-top: 10px;
-      margin-left: -150px;
+      margin-top: -260px;
+      margin-left: 150px;
       
     }
     
@@ -1058,7 +1052,7 @@ address{
 
     address{
       position: relative;
-      margin-top: 150px;
+      margin-top: 170px;
       margin-left: -120px;
       
     }
@@ -1080,8 +1074,8 @@ address{
 
     .des-footer{
       position: relative;
-      margin-top: 280px;
-      margin-left: -300px;
+      margin-top: 30px;
+      margin-left: -310px;
     }
     
     .text-footer1{
@@ -1103,7 +1097,7 @@ address{
 
      .nav-footer{
       position: relative;
-      margin-top: 370px;
+      margin-top: 120px;
       margin-left: -270px;
     }
     
@@ -1114,12 +1108,16 @@ address{
       margin-right: 20px;
     }
     
-}      
+    .pre-footer{
+      display: none;
+    }
+}
+      
     
 
 
 @media  screen and (min-width:425px) and (max-width:471px) {
-  /* Menu */
+        /* Menu */
   .navbar-brand{
     font-size: 28px;
     padding-top: 20px;
@@ -1150,18 +1148,17 @@ address{
     .nav-link{
       border: none;
       box-shadow: none;
-      font-size: 17px;
-      width: 70vh;
+      font-size: 18px;
       border-radius: 0px;
-        
+      max-width: 100%;  
     }
   
     .nav-link:hover{
       cursor: pointer;
-      background-color: rgba(255, 255, 255, 0.2);
-      color: #fff;
+      background-color: #000;
+      color: white;
       opacity: 0.8;
-  
+     
     }
      
     .bt-resp{
@@ -1173,7 +1170,7 @@ address{
     
     /* Header */
     .h1{
-      max-width: 400px;
+      max-width: 100%;
       position: absolute;
       margin-top: -20px;
       margin-left: 10px;
@@ -1192,11 +1189,11 @@ address{
    } 
     
    .img-fluid{
-     max-width: 420px;
+     max-width: 100%;
    }
     
     .cm1{
-     max-width: 400px;
+     max-width: 100%;
      position: relative;
      margin-left: 80px;
      margin-top: 20px;
@@ -1213,13 +1210,13 @@ address{
      margin-top: -190px;
      font-size: 35px;
      color: #fff;
-     max-width: 400px;
+     max-width: 90%;
     }
   
     .cards{
       display: flex;
       flex-wrap: wrap;
-      max-width: 400px;
+      max-width: 88%;
       margin-left: -110px;
       margin-top: 40px;
     }
@@ -1241,14 +1238,14 @@ address{
       font-size: 30px;
       margin-bottom: 20px;
       color: #fff;
-      max-width: 400px;
+      max-width: 100%;
     }
     
     .titvtg1{
     
       font-size: 15px;
       color: #dcdcdc;
-      max-width: 400px;
+      max-width: 100%;
     }
     
     /* Formulário e Convencimento */
@@ -1257,12 +1254,12 @@ address{
       position: absolute;
       margin-top: 5300px;
       margin-left: -60px;
-      max-width: 400px;
+      max-width: 90%;
       flex-direction: column;
     }
   
     .form1{
-      max-width: 370px;
+      max-width: 100%;
     }
       /* Titulo do Formulário */
     #formint{
@@ -1301,7 +1298,7 @@ address{
   
     .ult{
       position: absolute;
-      margin-top: 6225px;
+      margin-top: 6255px;
       margin-left: -40px;
     }  
     
@@ -1317,8 +1314,8 @@ address{
   
       .fofinal{
         position: absolute;
-        margin-top: 6400px;
-        max-width: 375px;
+        margin-top: 6450px;
+        max-width: 100%;
         display: flex;
         flex-wrap: wrap;
       }  
@@ -1332,8 +1329,8 @@ address{
       
       .pagamento{
         position: relative;
-        margin-top: 10px;
-        margin-left: -135px;
+        margin-top: -290px;
+        margin-left: 195px;
         
       }
       
@@ -1380,7 +1377,7 @@ address{
   
       address{
         position: relative;
-        margin-top: 150px;
+        margin-top: 170px;
         margin-left: -120px;
         
       }
@@ -1402,8 +1399,8 @@ address{
   
       .des-footer{
         position: relative;
-        margin-top: 280px;
-        margin-left: -330px;
+        margin-top: 30px;
+        margin-left: -340px;
       }
       
       .text-footer1{
@@ -1425,7 +1422,7 @@ address{
   
        .nav-footer{
         position: relative;
-        margin-top: 370px;
+        margin-top: 130px;
         margin-left: -280px;
       }
       
@@ -1435,67 +1432,70 @@ address{
         margin-top: 20px;
         margin-right: 20px;
       }
+
+      .pre-footer{
+        display: none;
+      }
+  
+
 }
 
 
 @media  screen and (min-width:472px) and (max-width:624px) {
-           /* Menu */
-           .navbar-brand{
-           font-size: 30px;
-           padding-top: 20px;
-          }
+              /* Menu */
+  .navbar-brand{
+    font-size: 35px;
+    padding-top: 20px;
+    }
   
-           .comeco{
-            flex-direction: column;
-            height: 80px;
-            align-items: unset;
+    .comeco{
+      flex-direction: column;
+      height: 80px;
+      align-items: unset;
   
-          }
+    }
   
-           #navbar{
-            width: 100%;
-           }
+    #navbar{
+      width: 100%;
+    }
     
-          .navegation{
-          flex-direction: column;
-          text-align: center;
-          justify-content: center;
-          align-items: unset;
-          margin: 0;
-          height: 0;
-          overflow: hidden;
-          transition: all 0.5s;
-        }
+    .navegation{
+      flex-direction: column;
+      text-align: center;
+      justify-content: center;
+      align-items: unset;
+      margin: 0;
+      height: 0;
+      overflow: hidden;
+      transition: all 0.5s;
+    }
     
-          .nav-link{
-          border: none;
-          box-shadow: none;
-          font-size: 20px;
-          width: 83vh;
-          border-radius: 0px;
-        
-        }
+    .nav-link{
+      border: none;
+      box-shadow: none;
+      font-size: 18px;
+      border-radius: 0px;
+      max-width: 100%;  
+    }
   
-          .nav-link:hover{
-           cursor: pointer;
-           background-color: rgba(255, 255, 255, 0.2);
-           color: #fff;
-           opacity: 0.8;
-  
-         }
+    .nav-link:hover{
+      cursor: pointer;
+      background-color: #000;
+      color: white;
+      opacity: 0.8;
      
-          .bt-resp{
-          display: flex;
-          }
-          
-          #pro{
-          display: none;
-          }
-          
+    }
+     
+    .bt-resp{
+      display: flex;
+    }
+    #pro{
+      display: none;
+    }
           
           /* Header */
           .h1{
-            max-width: 452px;
+            max-width: 100%;
             position: absolute;
             margin-top: -20px;
             margin-left: 10px;
@@ -1514,11 +1514,11 @@ address{
          } 
           
          .img-fluid{
-           max-width: 452px;
+           max-width: 95%;
          }
           
           .cm1{
-           max-width: 450px;
+           max-width: 100%;
            position: relative;
            margin-left: 80px;
            margin-top: 20px;
@@ -1535,13 +1535,13 @@ address{
            margin-top: -190px;
            font-size: 35px;
            color: #fff;
-           max-width: 400px;
+           max-width: 100%;
           }
         
           .cards{
             display: flex;
             flex-wrap: wrap;
-            max-width: 450px;
+            max-width: 100%;
             margin-left: -110px;
             margin-top: 40px;
           }
@@ -1554,7 +1554,7 @@ address{
         
           .vtg{
             position: absolute;
-            margin-top: 4050px;
+            margin-top: 4200px;
             margin-left: 20px;
             
           }
@@ -1563,28 +1563,28 @@ address{
             font-size: 30px;
             margin-bottom: 20px;
             color: #fff;
-            max-width: 450px;
+            max-width: 100%;
           }
           
           .titvtg1{
           
             font-size: 15px;
             color: #dcdcdc;
-            max-width: 450px;
+            max-width: 100%;
           }
           
           /* Formulário e Convencimento */
         
           .vai{
             position: absolute;
-            margin-top: 5000px;
+            margin-top: 5120px;
             margin-left: -60px;
-            max-width: 400px;
+            max-width: 100%;
             flex-direction: column;
           }
         
           .form1{
-            max-width: 370px;
+            max-width: 90%;
           }
             /* Titulo do Formulário */
           #formint{
@@ -1623,7 +1623,7 @@ address{
         
           .ult{
             position: absolute;
-            margin-top: 5925px;
+            margin-top: 5975px;
             margin-left: -30px;
           }  
           
@@ -1640,7 +1640,7 @@ address{
             .fofinal{
               position: absolute;
               margin-top: 6150px;
-              max-width: 375px;
+              max-width: 100%;
               display: flex;
               flex-wrap: wrap;
             }  
@@ -1654,8 +1654,8 @@ address{
             
             .pagamento{
               position: relative;
-              margin-top: 10px;
-              margin-left: -135px;
+              margin-top: -280px;
+              margin-left: 245px;
               
             }
             
@@ -1702,7 +1702,7 @@ address{
         
             address{
               position: relative;
-              margin-top: 150px;
+              margin-top: 170px;
               margin-left: -95px;
               
             }
@@ -1724,8 +1724,8 @@ address{
         
             .des-footer{
               position: relative;
-              margin-top: 280px;
-              margin-left: -330px;
+              margin-top: 30px;
+              margin-left: -390px;
             }
             
             .text-footer1{
@@ -1747,7 +1747,7 @@ address{
         
              .nav-footer{
               position: relative;
-              margin-top: 370px;
+              margin-top: 130px;
               margin-left: -280px;
             }
             
@@ -1757,6 +1757,11 @@ address{
               margin-top: 20px;
               margin-right: 20px;
             }
+
+            .pre-footer{
+              display: none;
+            }
+        
       }
       
       
@@ -1794,7 +1799,6 @@ address{
       border: none;
       box-shadow: none;
       font-size: 20px;
-      width: 107vh;
       border-radius: 0px;
         
     }
@@ -1816,9 +1820,9 @@ address{
     
     /* Header */
     .h1{
-      max-width: 620px;
+      max-width: 100%;
       position: absolute;
-      margin-top: -20px;
+      margin-top: 10px;
       margin-left: 20px;
       font-size: 35px;
       box-shadow: 10px 10px 10px #fff;
@@ -1835,11 +1839,11 @@ address{
    } 
     
    .img-fluid{
-     max-width: 600px;
+     max-width: 87%;
    }
     
     .cm1{
-     max-width: 620px;
+     max-width: 95%;
      position: relative;
      margin-left: 80px;
      margin-top: 20px;
@@ -1853,17 +1857,17 @@ address{
     .h11{
      position: relative;
      margin-left: -80px;
-     margin-top: -190px;
+     margin-top: -130px;
      font-size: 35px;
      color: #fff;
-     max-width: 620px;
+     max-width: 95%;
     }
   
     .cards{
       display: flex;
       flex-wrap: wrap;
-      max-width: 600px;
-      margin-left: -100px;
+      max-width: 100%;
+      margin-left: -95px;
       margin-top: 40px;
     }
   
@@ -1875,7 +1879,7 @@ address{
   
     .vtg{
       position: absolute;
-      margin-top: 3670px;
+      margin-top: 3750px;
       margin-left: 30px;
       
     }
@@ -1884,23 +1888,23 @@ address{
       font-size: 35px;
       margin-bottom: 20px;
       color: #fff;
-      max-width: 620px;
+      max-width: 100%;
     }
     
     .titvtg1{
     
       font-size: 15px;
       color: #dcdcdc;
-      max-width: 620px;
+      max-width: 100%;
     }
     
     /* Formulário e Convencimento */
   
     .vai{
       position: absolute;
-      margin-top: 4400px;
+      margin-top: 4460px;
       margin-left: -10px;
-      max-width: 400px;
+      max-width: 100%;
       flex-direction: column;
     }
   
@@ -1944,7 +1948,7 @@ address{
   
     .ult{
       position: absolute;
-      margin-top: 5175px;
+      margin-top: 5230px;
       margin-left: -25px;
     }  
     
@@ -1960,8 +1964,8 @@ address{
   
       .fofinal{
         position: absolute;
-        margin-top: 5350px;
-        max-width: 400px;
+        margin-top: 5400px;
+        max-width: 100%;
         display: flex;
         flex-wrap: wrap;
       }  
@@ -1975,8 +1979,8 @@ address{
       
       .pagamento{
         position: relative;
-        margin-top: 10px;
-        margin-left: -20px;
+        margin-top: -290px;
+        margin-left: 380px;
         
       }
       
@@ -2023,8 +2027,8 @@ address{
   
       address{
         position: relative;
-        margin-top: 150px;
-        margin-left: -70px;
+        margin-top: 170px;
+        margin-left: -50px;
         
       }
       
@@ -2044,8 +2048,8 @@ address{
         
       .des-footer{
         position: relative;
-        margin-top: 280px;
-        margin-left: -440px;
+        margin-top: 30px;
+        margin-left: -430px;
       }
       
       .text-footer1{
@@ -2067,7 +2071,7 @@ address{
   
        .nav-footer{
         position: relative;
-        margin-top: 370px;
+        margin-top: 130px;
         margin-left: -380px;
       }
       
@@ -2077,6 +2081,12 @@ address{
         margin-top: 20px;
         margin-right: 20px;
       }
+
+      .pre-footer{
+        display: none;
+      }
+  
+
     }
 @media  screen and (min-width:825px) and (max-width:924px) {
      /* Menu */
@@ -2129,7 +2139,7 @@ address{
     
     /* Header */
     .h1{
-      max-width: 820px;
+      max-width: 100%;
       position: absolute;
       margin-top: -20px;
       margin-left: 20px;
@@ -2150,14 +2160,14 @@ address{
     
    .img-fluid{
      position: relative;
-     margin-left: 80px;
+     margin-left: 100px;
      max-width: 380px;
    }
     
     .cm1{
      max-width: 430px;
      position: relative;
-     margin-left: 500px;
+     margin-left: 510px;
      margin-top: -290px;
      font-size: 17px;
      display: block;
@@ -2170,10 +2180,10 @@ address{
 
      position: relative;
      margin-left: -80px;
-     margin-top: -320px;
+     margin-top: -390px;
      font-size: 35px;
      color: #fff;
-     max-width: 820px;
+     max-width: 100%;
     }
     .card{
       max-width: 260px;
@@ -2202,7 +2212,7 @@ address{
       display: flex;
       flex-wrap: wrap;
       max-width: 820px;
-      margin-left: -115px;
+      margin-left: -100px;
       margin-top: 40px;
     }
   
@@ -2214,7 +2224,7 @@ address{
   
     .vtg{
       position: absolute;
-      margin-top: 2350px;
+      margin-top: 2300px;
       margin-left: 35px;
       
     }
@@ -2223,22 +2233,22 @@ address{
       font-size: 40px;
       margin-bottom: 20px;
       color: #fff;
-      max-width: 800px;
+      max-width: 100%;
     }
     
     .titvtg1{
     
       font-size: 15px;
       color: #dcdcdc;
-      max-width: 800px;
+      max-width: 100%;
     }
     
     /* Formulário e Convencimento */
   
     .vai{
       position: absolute;
-      margin-top: 3000px;
-      margin-left: -70px;
+      margin-top: 2920px;
+      margin-left: -60px;
       max-width: 400px;
       display: flex;
       flex-wrap: wrap;
@@ -2246,6 +2256,7 @@ address{
   
     .form1{
       max-width: 380px;
+      
     }
       /* Titulo do Formulário */
     #formint{
@@ -2284,7 +2295,7 @@ address{
   
     .ult{
       position: absolute;
-      margin-top: 3555px;
+      margin-top: 3455px;
       margin-left: -35px;
     }  
     
@@ -2300,8 +2311,8 @@ address{
   
       .fofinal{
         position: absolute;
-        margin-top: 3700px;
-        max-width: 400px;
+        margin-top: 3600px;
+        max-width: 100%;
         display: flex;
         flex-wrap: wrap;
       }  
@@ -2315,8 +2326,8 @@ address{
       
       .pagamento{
         position: relative;
-        margin-top: 10px;
-        margin-left: -70px;
+        margin-top: -300px;
+        margin-left: 560px;
         
       }
       
@@ -2384,13 +2395,13 @@ address{
         
       .des-footer{
         position: relative;
-        margin-top: 280px;
-        margin-left: -550px;
+        margin-top: 20px;
+        margin-left: -560px;
       }
       
       .text-footer1{
         position: relative;
-        margin-left: 20px;
+        margin-left: 10px;
         width: 70px;
         height: 70px;
       }
@@ -2399,7 +2410,7 @@ address{
         position: relative;
         margin-left: 30px;
         max-width: 500px;
-        font-size: 20px;
+        font-size: 18px;
         font-weight: bold;
       }
   
@@ -2407,8 +2418,8 @@ address{
   
        .nav-footer{
         position: relative;
-        margin-top: 460px;
-        margin-left: -430px;
+        margin-top: 260px;
+        margin-left: -450px;
       }
       
       .img-footer{
@@ -2417,6 +2428,12 @@ address{
         margin-top: 20px;
         margin-right: 20px;
       }
+
+      .pre-footer{
+        display: none;
+      }
+  
+
 }
 
 @media  screen and (min-width:925px) and (max-width:1024px) {
@@ -2470,7 +2487,7 @@ address{
  
  /* Header */
  .h1{
-   max-width: 920px;
+   max-width: 100%;
    position: absolute;
    margin-top: -20px;
    margin-left: 20px;
@@ -2514,7 +2531,7 @@ address{
   margin-top: -340px;
   font-size: 35px;
   color: #fff;
-  max-width: 900px;
+  max-width: 100%;
  }
  .card{
    max-width: 295px;
@@ -2535,15 +2552,15 @@ address{
  #card2{
    position: relative;
    margin-left: 619px;
-   margin-top: -1566px;
-   max-width: 295px;
+   margin-top: -1530px;
+   max-width: 325px;
  }
 
  .cards{
    display: flex;
    flex-wrap: wrap;
    max-width: 920px;
-   margin-left: -115px;
+   margin-left: -100px;
    margin-top: 40px;
  }
 
@@ -2564,22 +2581,22 @@ address{
    font-size: 45px;
    margin-bottom: 20px;
    color: #fff;
-   max-width: 900px;
+   max-width: 100%;
  }
  
  .titvtg1{
  
    font-size: 16px;
    color: #dcdcdc;
-   max-width: 900px;
+   max-width: 100%;
  }
  
  /* Formulário e Convencimento */
 
  .vai{
    position: absolute;
-   margin-top: 2850px;
-   margin-left: -70px;
+   margin-top: 2800px;
+   margin-left: -60px;
    max-width: 400px;
    display: flex;
    flex-wrap: wrap;
@@ -2625,7 +2642,7 @@ address{
 
  .ult{
    position: absolute;
-   margin-top: 3400px;
+   margin-top: 3320px;
    margin-left: -35px;
  }  
  
@@ -2641,8 +2658,8 @@ address{
 
    .fofinal{
      position: absolute;
-     margin-top: 3550px;
-     max-width: 400px;
+     margin-top: 3470px;
+     max-width: 100%;
      display: flex;
      flex-wrap: wrap;
    }  
@@ -2656,8 +2673,8 @@ address{
    
    .pagamento{
      position: relative;
-     margin-top: 10px;
-     margin-left: -10px;
+     margin-top: -310px;
+     margin-left: 650px;
      
    }
    
@@ -2704,7 +2721,7 @@ address{
 
    address{
      position: relative;
-     margin-top: 150px;
+     margin-top: 170px;
      margin-left: 20px;
      
    }
@@ -2725,8 +2742,8 @@ address{
      
    .des-footer{
      position: relative;
-     margin-top: 280px;
-     margin-left: -670px;
+     margin-top: 20px;
+     margin-left: -630px;
    }
    
    .text-footer1{
@@ -2740,7 +2757,7 @@ address{
      position: relative;
      margin-left: 30px;
      max-width: 500px;
-     font-size: 18px;
+     font-size: 16px;
      font-weight: bold;
    }
 
@@ -2748,8 +2765,8 @@ address{
 
     .nav-footer{
      position: relative;
-     margin-top: 460px;
-     margin-left: -490px;
+     margin-top: 230px;
+     margin-left: -530px;
    }
    
    .img-footer{
@@ -2758,6 +2775,12 @@ address{
      margin-top: 20px;
      margin-right: 20px;
    }
+
+    .pre-footer{
+      display: none;
+    }
+
+
 }
 
 
@@ -2813,7 +2836,7 @@ address{
   
   /* Header */
   .h1{
-    max-width: 1020px;
+    max-width: 100%;
     position: absolute;
     margin-top: -20px;
     margin-left: 20px;
@@ -2857,7 +2880,7 @@ address{
    margin-top: -340px;
    font-size: 40px;
    color: #fff;
-   max-width: 1020px;
+   max-width: 100%;
   }
   .card{
     max-width: 325px;
@@ -2908,14 +2931,14 @@ address{
     font-size: 55px;
     margin-bottom: 20px;
     color: #fff;
-    max-width: 1000px;
+    max-width: 100%;
   }
   
   .titvtg1{
   
     font-size: 19px;
     color: #dcdcdc;
-    max-width: 900px;
+    max-width: 90%;
   }
   
   /* Formulário e Convencimento */
@@ -2985,8 +3008,8 @@ address{
  
     .fofinal{
       position: absolute;
-      margin-top: 3550px;
-      max-width: 400px;
+      margin-top: 3650px;
+      max-width: 100%;
       display: flex;
       flex-wrap: wrap;
     }  
@@ -3000,8 +3023,8 @@ address{
     
     .pagamento{
       position: relative;
-      margin-top: 10px;
-      margin-left: 10px;
+      margin-top: -310px;
+      margin-left: 710px;
       
     }
     
@@ -3069,7 +3092,7 @@ address{
       
     .des-footer{
       position: relative;
-      margin-top: 330px;
+      margin-top: 20px;
       margin-left: -690px;
     }
     
@@ -3084,7 +3107,7 @@ address{
       position: relative;
       margin-left: 30px;
       max-width: 500px;
-      font-size: 17px;
+      font-size: 16px;
       font-weight: bold;
     }
  
@@ -3092,8 +3115,8 @@ address{
  
      .nav-footer{
       position: relative;
-      margin-top: 460px;
-      margin-left: -520px;
+      margin-top: 230px;
+      margin-left: -540px;
     }
     
     .img-footer{
@@ -3102,6 +3125,12 @@ address{
       margin-top: 20px;
       margin-right: 20px;
     }
+
+    .pre-footer{
+      display: none;
+    }
+
+
 }
 
 @media  screen and (min-width:1225px) and (max-width:1424px){
@@ -3122,7 +3151,7 @@ address{
  
   .navegation{
     position: absolute;
-    margin-top: 25px;
+    margin-top: 0px;
     margin-left: -345px;
     display: inline;
   }
@@ -3149,13 +3178,13 @@ address{
   }
  
   #pro{
-    display: none;
+    display: flex;
   }
   
   
   /* Header */
   .h1{
-    max-width: 1220px;
+    max-width: 100%;
     position: absolute;
     margin-top: -20px;
     margin-left: 20px;
@@ -3199,7 +3228,7 @@ address{
    margin-top: -340px;
    font-size: 45px;
    color: #fff;
-   max-width: 1220px;
+   max-width: 100%;
   }
   .card{
     max-width: 396px;
@@ -3250,14 +3279,14 @@ address{
     font-size: 65px;
     margin-bottom: 20px;
     color: #fff;
-    max-width: 1200px;
+    max-width: 100%;
   }
   
   .titvtg1{
   
     font-size: 20px;
     color: #dcdcdc;
-    max-width: 1020px;
+    max-width: 90%;
   }
   
   /* Formulário e Convencimento */
@@ -3328,7 +3357,7 @@ address{
     .fofinal{
       position: absolute;
       margin-top: 3450px;
-      max-width: 400px;
+      max-width: 100%;
       display: flex;
       flex-wrap: wrap;
     }  
@@ -3342,8 +3371,8 @@ address{
     
     .pagamento{
       position: relative;
-      margin-top: 10px;
-      margin-left: 80px;
+      margin-top: -10px;
+      margin-left: 110px;
       
     }
     
@@ -3412,7 +3441,7 @@ address{
     .des-footer{
       position: relative;
       margin-top: 330px;
-      margin-left: -720px;
+      margin-left: -740px;
     }
     
     .text-footer1{
@@ -3426,7 +3455,7 @@ address{
       position: relative;
       margin-left: 30px;
       max-width: 500px;
-      font-size: 17px;
+      font-size: 16px;
       font-weight: bold;
     }
  
@@ -3434,7 +3463,7 @@ address{
  
      .nav-footer{
       position: relative;
-      margin-top: 460px;
+      margin-top: 470px;
       margin-left: -680px;
     }
     
@@ -3447,8 +3476,8 @@ address{
 
     .pre-footer{
       position: relative;
-      margin-top: 460px;
-      margin-left: 330px;
+      margin-top: 470px;
+      margin-left: 350px;
       font-size: 15px;
       font-weight: bold;
     }
